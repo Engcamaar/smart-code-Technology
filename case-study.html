@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study - SmartCode Technology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <div id="header-host"></div>
+
+    <!-- Hero Section -->
+    <div class="relative bg-brand-900 text-white py-24">
+        <div class="absolute inset-0 overflow-hidden">
+            <img id="cs-hero-bg" src="" alt="Background" class="w-full h-full object-cover opacity-20">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <span id="cs-category"
+                class="inline-block py-1 px-3 rounded-full bg-brand-700 text-brand-100 text-sm font-semibold mb-4">Category</span>
+            <h1 id="cs-title" class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl mb-6">Loading
+                Project...</h1>
+            <div class="flex items-center space-x-4 text-brand-100">
+                <div class="flex items-center">
+                    <i class="far fa-calendar-alt mr-2"></i>
+                    <span id="cs-date">2023</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="far fa-user mr-2"></i>
+                    <span id="cs-client">Client Name</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="lg:grid lg:grid-cols-12 lg:gap-16">
+
+            <!-- Main Content -->
+            <div class="lg:col-span-8">
+                <div class="bg-white rounded-2xl shadow-sm p-8 mb-8" id="cs-content-container">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">Overview</h2>
+                    <p id="cs-description" class="text-gray-600 leading-relaxed mb-8">
+                        Loading description...
+                    </p>
+
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">The Challenge</h2>
+                    <p class="text-gray-600 leading-relaxed mb-8">
+                        Every project starts with a problem. We identified the core bottlenecks and designed a solution
+                        that addresses scalability, performance, and user experience.
+                    </p>
+
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">Our Solution</h2>
+                    <p class="text-gray-600 leading-relaxed mb-8">
+                        We implemented a modern architecture using cutting-edge technologies. The system is designed to
+                        be robust, secure, and easily maintainable.
+                    </p>
+
+                    <div class="mt-8">
+                        <img id="cs-showcase-img" src="" alt="Project Showcase" class="rounded-xl shadow-lg w-full">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="lg:col-span-4 mt-8 lg:mt-0">
+                <div class="bg-white rounded-2xl shadow-sm p-8 sticky top-24">
+                    <h3 class="text-lg font-bold text-gray-900 mb-4">Technologies Used</h3>
+                    <div id="cs-tags" class="flex flex-wrap gap-2 mb-8">
+                        <!-- Tags injected here -->
+                    </div>
+
+                    <h3 class="text-lg font-bold text-gray-900 mb-4">Project Links</h3>
+                    <div class="space-y-3">
+                        <a href="#" id="cs-live-link"
+                            class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 w-full">
+                            <i class="fas fa-external-link-alt mr-2"></i> Visit Live Site
+                        </a>
+                        <a href="projects.html"
+                            class="flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 w-full">
+                            <i class="fas fa-arrow-left mr-2"></i> Back to Projects
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer-host"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
